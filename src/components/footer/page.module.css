@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    size: 2vw;
+    padding-bottom: 1vh;
+    padding-right: 1vw;
+    opacity: 0.6;
+    align-items: center;
+}
+.imageContainer{
+   display:flex;
+    gap:2vw;
+
+}
