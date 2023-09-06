@@ -7,5 +7,21 @@
 }
 .disc{
     font-size: 120%;
-    opacity: 0.6;
+    opacity: 0.4;
+    font-weight: bold;
+}
+.excel{
+    padding-top: 3vh;
+    display: flex;
+    height: 10vh;
+    width: 10vw;
+    justify-content: space-between;
+    align-items: center;
+    gap:4vw;
+    padding-left: 4vw;
+}
+.img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
 }
