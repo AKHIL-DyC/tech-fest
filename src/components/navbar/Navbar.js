@@ -8,7 +8,7 @@ const Navbar = () => {
 
       <h4>MECEL</h4>
       <div className={styles.links}>
-        <Link href="/">home</Link>
+        <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/events">Events</Link>
         <Link href='/contact'>Contact</Link>

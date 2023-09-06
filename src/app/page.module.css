@@ -1,4 +1,28 @@
-.home{
-  position: relative;
-  
+.mContainer{
+  align-items: center;
+  max-height: 100vh;
+  display: flex;
+  gap:1vw
+}
+.items{
+  align-items: center;
+  flex:1;
+  overflow: hidden;
+
+}
+.title{
+  font-size: 5vw;
+  padding-left: 9.1vw;
+  background: linear-gradient(45deg, red, blue);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.disc{
+  font-size: 25px;
+  opacity: 0.5;
+}
+.img{
+    height:87vh;
+    width:50vw;
+    object-fit: cover;
 }

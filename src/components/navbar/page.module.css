@@ -12,13 +12,19 @@
 }
 
 .links{
+    background: linear-gradient(135deg, orange 15%, cyan);
     overflow-x: hidden;
     display: flex;
     gap: 1vw;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .button{
-    background-color:cyan;
+    background: linear-gradient(135deg, orange 5%, cyan);
     color:black;
     border-radius: 10%;
+    font-weight: bolder;
+    font-size: 1.5vh;
+    border:none;
 }
