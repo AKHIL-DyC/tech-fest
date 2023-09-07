@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
-import conta from '/public/contact2.jpg'
+import conta from '/public/contact.jpg'
 const Contact = () => {
   return (
     <div className={styles.container}>

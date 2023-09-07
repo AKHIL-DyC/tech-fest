@@ -1,0 +1,12 @@
+.container{
+    padding-right: 9px;
+    width:48px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.sun{
+    display: none;
+}
