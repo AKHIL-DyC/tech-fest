@@ -8,6 +8,7 @@ const Navbar = () => {
     <div className={styles.navbar}>
 
       <h4>MECEL</h4>
+      
       <div className={styles.links}>
         <Darkmode />
         <Link href="/">Home</Link>

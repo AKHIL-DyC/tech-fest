@@ -3,12 +3,12 @@
     justify-content: space-between;
     padding-right: 10px;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 1px;
     height: fit-content;
     align-items: center;
 }
 .navbar h4{
-    color: aqua;
+    color:violet;
     
 }
 
@@ -19,6 +19,8 @@
     gap: 1vw;
     -webkit-background-clip: text;
     color: transparent;
+    justify-content: center;
+    align-items: center;
 }
 
 .button{

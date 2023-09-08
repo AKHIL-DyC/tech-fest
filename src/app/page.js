@@ -1,7 +1,13 @@
+"use client"
 import Image from 'next/image'
 import styles from './page.module.css'
 import pic from 'public/bg2.jpg'
+import { useContext } from 'react'
+import { ThemeContext } from '@/context/ThemeContext'
+
 export default function Home() {
+  const {mode} =useContext(ThemeContext)
+  console.log(mode)
   return (
    <div className={styles.mContainer}>
     <div className={styles.items}>
@@ -9,7 +15,8 @@ export default function Home() {
       <p className={styles.disc}>Get ready to unleash the future! Join us at Model Engineering College's Tech Fest 2023 for a thrilling journey into the digital cosmos. Innovation, excitement, and electrifying ideas await. Let's code the future together!"</p>
    </div>
    <div className={styles.items}>
-   <Image src={pic} className={styles.img}></Image>
+   <Image src={pic} className={styles.img}
+   style={mode==="light"&&{filter:"invert(100%)"}}></Image>
    </div>
    </div>
   )

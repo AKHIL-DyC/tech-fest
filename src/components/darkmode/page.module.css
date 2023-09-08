@@ -1,12 +1,24 @@
 .container{
+    color: aliceblue;
     padding-right: 9px;
-    width:48px;
+    width:42px;
     height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 2px;
+    display:flex;
+    position:relative;
+    align-items:center;
+    justify-content:space-between;
     cursor: pointer;
+    border: 1.5px solid gold;
+    border-radius:30px;
 }
-.sun{
-    display: none;
+
+
+.ball{
+    width:23px;
+    height: 24px;
+    border-radius: 31px;
+    background-color: gold;
+    position: absolute;
+
 }
