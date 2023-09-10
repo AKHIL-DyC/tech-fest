@@ -22,6 +22,7 @@
   opacity: 0.5;
 }
 .img{
+    transition: 1s all ease-in;
     height:87vh;
     width:50vw;
     object-fit: cover;

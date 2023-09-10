@@ -9,6 +9,7 @@ export default function Home() {
   const {mode} =useContext(ThemeContext)
   console.log(mode)
   return (
+    
    <div className={styles.mContainer}>
     <div className={styles.items}>
       <h1 className={styles.title}>MECEL 2023</h1>
