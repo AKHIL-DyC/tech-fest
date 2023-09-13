@@ -13,7 +13,7 @@ const Navbar = () => {
         <Darkmode />
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
-        <Link href="/events">Events</Link>
+        <Link href="/events">Prizes</Link>
         <Link href='/contact'>Contact</Link>
         <Link href='/dashboard'>Dashboard</Link>
         <button className={styles.button}>Logout</button>
