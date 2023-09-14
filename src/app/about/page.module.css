@@ -1,27 +1,43 @@
 .about{
-    padding-left: 15vw;
-    padding-right: 15vw;
+    height: 88vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    gap:5vh;
+  
+}
+.img{
+    justify-content: center;
+   
+}
+.txt{
+    width:80vw;
+   
 }
 .disc{
-    font-size: 120%;
+    
+    font-size:130%;
     opacity: 0.4;
     font-weight: bold;
 }
+
 .excel{
     padding-top: 3vh;
     display: flex;
-    height: 10vh;
-    width: 10vw;
+    width: fit-content;
     justify-content: space-between;
+    
     align-items: center;
-    gap:4vw;
+    gap:1vw;
     padding-left: 4vw;
+    overflow: hidden;
 }
-.img{
-    height: inherit;
-    width: inherit;
-    object-fit: cover;
+.imgs{
+    height: 15vh;
+    max-width: 15vw;
+    object-fit:contain;
+    align-items: center;
+    justify-content: center;
 }
