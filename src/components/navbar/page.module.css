@@ -24,8 +24,10 @@
 }
 
 .button{
+    -webkit-background-clip: text;
     background: linear-gradient(135deg, orange 5%, cyan);
-    color:black;
+    -webkit-background-clip: text;
+    color: transparent;
     border-radius: 10%;
     font-weight: bolder;
     font-size: 1.5vh;
