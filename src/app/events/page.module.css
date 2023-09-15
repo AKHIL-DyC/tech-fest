@@ -1,5 +1,56 @@
-.main{
+.first{
+    padding-top: 2vh;
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    gap:40px;
+    height:94vh;
+    align-items: center;
+ 
+}
+.second{
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    height:98vh;
+    align-items: center;
+}
+.third{
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    height:94vh;
+    align-items: center;
+ 
+}
+.talks{
+    height: 3vh;
+    opacity: 0.6;
+    font-size: 4vw;
+    font-family: Arial;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 30px;
+  
+   
+}
+.imgContainer{
+    width: 70vw;
+    height: inherit;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.img{
+    width: inherit;
+    height: 25vh;
+    object-fit: cover;
+}
+.imgs{
+    width: inherit;
+    height: 25vh;
+    object-fit: cover;
 }

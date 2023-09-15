@@ -18,3 +18,23 @@
     overflow: hidden;
     opacity: 0.6;
 }
+@media screen and (max-width: 1090px){
+    .img{
+        width:70vw;
+        height:350px;
+        object-fit: contain;
+    }
+.mainContainer{
+    flex-direction: column;
+    padding-left: 1vw;
+    gap:10px;
+    justify-content: space-between;
+    
+}
+.textContainer{
+    display: flex;
+   border-bottom: 5px solid grey;
+    width:80vw;
+    font-size: 3vw;
+}
+}
