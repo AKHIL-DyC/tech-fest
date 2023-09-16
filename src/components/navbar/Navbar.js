@@ -10,7 +10,8 @@ export default function Navbar(){
  if(session){
   return (
     <div className={styles.navbar}>
-      <h4>MECEL</h4>
+     <Link href='https://akhil-mec.vercel.app'target='_blank'><h3>MECEL</h3></Link>
+  
       
       <div className={styles.links}>
         <Darkmode />

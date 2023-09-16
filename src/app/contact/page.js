@@ -8,7 +8,7 @@ const Contact = () => {
       <h1 className={styles.txt}>Wanna Keep in Touch ? </h1>
       <div className={styles.content}>
 
-        <Image src={conta} className={styles.img}></Image>
+        <Image src={conta} className={styles.img} alt='contact'></Image>
 
         <form className={styles.form}>
           <input type="text" placeholder='name' className={styles.input} />

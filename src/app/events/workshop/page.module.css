@@ -1,0 +1,46 @@
+
+.mainContainer{
+    width:58vw;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    flex-direction:column;
+    gap:1vh
+    
+}
+
+.imgContainer{
+    display: flex;
+    width:50vw;
+    overflow: hidden;
+    flex-direction: column;
+
+}
+
+.img{
+    width:50vw;
+    height:40vh;
+    object-fit: cover;
+
+}
+.textContainer{
+background-color: grey;
+border-radius: 30px;
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    position: absolute;
+    left: 15vw;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4px;
+   background:linear-gradient(
+    purple,black
+
+   );
+   
+    
+    
+}

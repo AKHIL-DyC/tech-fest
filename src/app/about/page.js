@@ -86,7 +86,7 @@ export default function About() {
     <div className={styles.about}>
       
       <animated.div className={styles.img} ref={ref} style={springs}>
-        <Image src={mdl} styles={styles.mdl}></Image>
+        <Image src={mdl} styles={styles.mdl}alt='college'></Image>
         </animated.div>
         <div className={styles.txt}>
         <p className={styles.disc}>In 2001, the students of Govt. Model Engineering College founded Mecel, a techno-managerial festival like no other. The annually celebrated techfest has steadily hosted students from more than 2000 universities and 1000 institutions across the nation as it has grown exponentially over the years. Mecel has always provided opportunities to students in ways they have only dreamt of, and everyone is invited to be a part of that journey to make this festival a grand success. Now, gearing up for its 23rd edition, Mecel promises an celebration of technology that’s a bigger and brighter blast than ever.</p>

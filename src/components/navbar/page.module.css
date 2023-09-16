@@ -1,3 +1,4 @@
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -7,8 +8,10 @@
     height: fit-content;
     align-items: center;
 }
-.navbar h4{
-    color:violet;
+.navbar h3{
+    background: linear-gradient(45deg, blue, red);
+    -webkit-background-clip: text;
+    color: transparent;
     
 }
 
