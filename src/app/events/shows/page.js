@@ -58,7 +58,7 @@ const togglem=()=>{
 
   return (
     <div className={styles.mainContainer}> 
-      <div className={styles.imgContainer}ref={ref} style={...springs}>
+      <div className={styles.imgContainer}ref={ref} style={springsPops}>
         <div><Image src={car} className={styles.img} alt='events ' onClick={toggle} ></Image></div>
         <div><Image src={magic} className={styles.img}  alt='events 'onClick={toggle2} ></Image></div>
         <div><Image src={marathon} className={styles.img} alt='events ' onClick={toggle3} ></Image></div>
@@ -66,8 +66,8 @@ const togglem=()=>{
         </div>
          <div className={styles.textContainer} style={{display:isvisible?'block':'none'}}  ><h1>MOSTRA D AUTO</h1><p>The auto expo is an event dedicated entirely to understand and appreciate the wonderful world of automobile engineering.
 Conducted in collaboration with Top Gear MEC, the event aims to satisfy the dual aims of being entertaining and educational simultaneously. With a grand automobile exhibition, and a host of workshops such as engine display, chassis design and many more, this event truly promises to make the attendees appreciate the machines while also understand their inner workings</p></div>  
-         <div className={styles.textContainer} style={{display:isvisible2?'block':'none'}} ><h1>UNMASKED</h1><p>Prepare to have your mind blown and your perceptions challenged with Unmasked - the ultimate magic and mentalism event! Excel 2022 is proud to present this year's edition of Unmasked, featuring the incredible Fazil Basheer, renowned for his mesmerizing Tricksmania show.</p></div>  
-         <div className={styles.textContainer} style={{display:isvisible3?'block':'none'}} ><h1>HEADSTART</h1><p>What mental health needs is more sunlight, more candor, and more unashamed conversations. Head Start, is a mini-marathon organised by Mecel'22, in collaboration with Fortitude MEC, to spread awareness and reduce stigma around mental illnesses at Durbar Hall Ground on February 5.</p></div>  
+         <div className={styles.textContainer} style={{display:isvisible2?'block':'none'}} ><h1>UNMASKED</h1><p>Prepare to have your mind blown and your perceptions challenged with Unmasked - the ultimate magic and mentalism event! Excel 2022 is proud to present this years edition of Unmasked, featuring the incredible Fazil Basheer, renowned for his mesmerizing Tricksmania show.</p></div>  
+         <div className={styles.textContainer} style={{display:isvisible3?'block':'none'}} ><h1>HEADSTART</h1><p>What mental health needs is more sunlight, more candor, and more unashamed conversations. Head Start, is a mini-marathon organised by Mecel23, in collaboration with Fortitude MEC, to spread awareness and reduce stigma around mental illnesses at Durbar Hall Ground on February 5.</p></div>  
          <div className={styles.textContainer} style={{display:isvisible4?'block':'none'}} ><h1>DJ AKHIL</h1>Open mic is an event presented by the non-tech team of Mecel where you are able to showcase your talents to the world and also. Bring your best jokes, your heartfelt lyrics, or your mind-bending poetry, and get ready to captivate the crowd.<p>
 
 </p></div>  
