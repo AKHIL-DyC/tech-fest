@@ -3,7 +3,7 @@ import { ThemeContext } from '@/context/ThemeContext'
 import React ,{useContext}from 'react'
 import styles from './page.module.css'
 
-const darkmode = () => {
+const Darkmode = () => {
   const {toggle,mode} = useContext(ThemeContext);
   return (
     <div className={styles.container} onClick={toggle}>
@@ -17,4 +17,4 @@ const darkmode = () => {
   )
 }
 
-export default darkmode
+export default Darkmode

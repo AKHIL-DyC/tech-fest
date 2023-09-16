@@ -15,7 +15,7 @@ import foot from '/public/foot.avif'
 import pcb from '/public/pcb.jpg'
 import ar from 'public/ardev.jpg'
 import web3 from 'public/web3.jpg'
-export default function page(){
+export default function usePage(){
   const [ref, inView] = useInView({threshold:0.5});
   const [springs, api] = useSpring(() => ({
     from: { x: -100},

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./page.module.css"
 import Image from "next/image";
-async function getData(){
+async function useGetData(){
   const res =await fetch('https://dummyjson.com/products')
 
 if(!res.ok){
@@ -13,8 +13,8 @@ return data.products;
 
 
 
-const page = async() => {
-  const data=await getData()
+const Page = async() => {
+  const data=await useGetData()
   return (
     <>
     {data.map((products)=>(
@@ -30,5 +30,5 @@ const page = async() => {
   )
 }
 
-export default page
+export default Page
 

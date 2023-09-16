@@ -14,7 +14,7 @@ import { useInView } from 'react-intersection-observer';
 
 
 
-export default function About() {
+export default function useAbout() {
  const[ref,inView]=useInView( {threshold:0.7});
  const[springs,api]=useSpring(()=>({
   from:{y:100},

@@ -11,7 +11,7 @@ import  SessionProvider  from '@/context/SessionContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const Metadata = {
   title: 'Mecel',
   description: 'tech fest',
 }

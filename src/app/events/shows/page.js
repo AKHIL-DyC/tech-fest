@@ -12,7 +12,7 @@ import { useSpring, animated } from '@react-spring/web';
 import { useInView } from 'react-intersection-observer';
 
  
-export default function page(id){
+export default function usePage(id){
   const [ref, inView] = useInView({threshold:0.5});
   const [springs, api] = useSpring(() => ({
     from: { y: -100},

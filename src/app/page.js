@@ -6,7 +6,7 @@ import { useSpring,animated, easings } from '@react-spring/web'
 import { useContext } from 'react'
 import { ThemeContext } from '@/context/ThemeContext'
 
-export default function Home() {
+export default function useHome() {
   const {mode} =useContext(ThemeContext)
   const springsh = useSpring({
     delay:0,
