@@ -10,7 +10,7 @@ const Darkmode = () => {
         <div className={styles.moon}>🌙</div>
         <div className={styles.sun}>☀️</div>
         <div className={styles.ball}
-          style={mode==="light"? {left:"2px"}:{right:"2px"}}
+          style={mode==='light'? {left:'2px'}:{right:'2px'}}
         ></div>
       
     </div>

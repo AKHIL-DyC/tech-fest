@@ -58,7 +58,7 @@ const togglem=()=>{
 
   return (
     <div className={styles.mainContainer}> 
-      <div className={styles.imgContainer}ref={ref} style={springsPops}>
+      <div className={styles.imgContainer}ref={ref} style={springs}>
         <div><Image src={car} className={styles.img} alt='events ' onClick={toggle} ></Image></div>
         <div><Image src={magic} className={styles.img}  alt='events 'onClick={toggle2} ></Image></div>
         <div><Image src={marathon} className={styles.img} alt='events ' onClick={toggle3} ></Image></div>

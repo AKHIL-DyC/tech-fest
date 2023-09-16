@@ -25,8 +25,8 @@ export default function useHome() {
     
    <div className={styles.mContainer}>
     <div className={styles.items}>
-      <animated.h1 className={styles.title} style={springshProps}>MECEL 2023</animated.h1>
-      <animated.p className={styles.disc} style={springspProps}>Get ready to unleash the future! Join us at Model Engineering Colleges Tech Fest 2023 for a thrilling journey into the digital cosmos. Innovation, excitement, and electrifying ideas await. Lets code the future together!</animated.p>
+      <animated.h1 className={styles.title} style={springsh}>MECEL 2023</animated.h1>
+      <animated.p className={styles.disc} style={springsp}>Get ready to unleash the future! Join us at Model Engineering Colleges Tech Fest 2023 for a thrilling journey into the digital cosmos. Innovation, excitement, and electrifying ideas await. Lets code the future together!</animated.p>
    </div>
    <div className={styles.items}>
    <Image src={pic} className={styles.img} alt="college"

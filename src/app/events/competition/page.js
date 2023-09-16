@@ -49,7 +49,7 @@ export default function usePage() {
 
   return (
     <div className={styles.mainContainer}>
-      <animated.div className={styles.imgContainer} ref={ref} style={springsProps}>
+      <animated.div className={styles.imgContainer} ref={ref} style={springs}>
         <div><Image src={car} className={styles.img} alt='competion' onClick={toggle}></Image></div>
         <div><Image src={magic} className={styles.img} alt='competion' onClick={toggle2}></Image></div>
         <div><Image src={marathon} className={styles.img} alt='competion' onClick={toggle3}></Image></div>

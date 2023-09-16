@@ -59,7 +59,7 @@ export default function usePage(){
   return (
    <> 
       
-      <animated.div className={styles.first} ref={ref} style={{...springs}}>
+      <animated.div className={styles.first} ref={ref} style={springs}>
       <Link href="/events/shows">
         <div className={styles.talks}>
         <p>EVENTS</p>
@@ -72,7 +72,7 @@ export default function usePage(){
       </Link>
       </animated.div> 
 
-      <animated.div className={styles.second}ref={ref2} style={{...springs2}}>
+      <animated.div className={styles.second}ref={ref2} style={springs2}>
       <Link href="/events/competition">
       <div className={styles.talks}>
       <p>COMPETITION</p>
@@ -85,7 +85,7 @@ export default function usePage(){
       </Link>
       </animated.div>
 
-      <animated.div className={styles.third}ref={ref3} style={{...springs3}}>
+      <animated.div className={styles.third}ref={ref3} style={springs3}>
       <Link href="/events/workshop">
       <div className={styles.talks}>
       <p> WORKSHOPS</p>
