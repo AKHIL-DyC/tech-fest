@@ -8,7 +8,7 @@
     height: fit-content;
     align-items: center;
 }
-.navbar h3{
+.mecel{
     background: linear-gradient(45deg, blue, red);
     -webkit-background-clip: text;
     color: transparent;
