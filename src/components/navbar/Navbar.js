@@ -10,7 +10,7 @@ export default function useNavbar(){
  if(session){
   return (
     <div className={styles.navbar}>
-     <Link href='https://akhil-mec.vercel.app'target='_blank' className={styles.mecel}>MECEL</Link>
+   <div className={styles.mecel}> <Link href='https://akhil-mec.vercel.app'target='_blank'>MECEL</Link></div>
   
       
       <div className={styles.links}>
